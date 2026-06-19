@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+@theme {
+  /* Brand colours derived from the Emery store: turquoise logo mark,
+     graphite/glass strip-mall facade, black display fixtures, warm oak floors */
+  --color-paper: #FAFAFA;
+  --color-paper-warm: #F3EFE6;
+  --color-ink: #15191C;
+  --color-ink-light: #262C30;
+  --color-teal: #2FBEC9;
+  --color-teal-dark: #167C86;
+  --color-teal-pale: #DEF6F7;
+  --color-oak: #C8A876;
+  --color-oak-light: #E9DCC0;
+  --color-slate: #62707A;
+
+  /* Typography — bold geometric sans for a confident retail feel */
+  --font-display: var(--font-sora), "Arial", sans-serif;
+  --font-sans: var(--font-inter), system-ui, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--color-paper);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Diagonal-cut shape used on CTA banners / badges for a punchier retail edge */
+.clip-notch {
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 4% 100%);
+}
