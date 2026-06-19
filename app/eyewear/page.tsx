@@ -85,7 +85,7 @@ export default function EyewearPage() {
               Eyewear &amp; Collections
             </p>
             <h1 className="font-display font-extrabold text-paper text-5xl md:text-6xl leading-tight mb-6 max-w-3xl">
-              A Frame Wall That Doesn&apos;t Feel Like a Strip Mall.
+              A Frame Wall Worth Crossing the Plaza For.
             </h1>
             <p className="text-paper/75 text-lg max-w-2xl">
               We hand-pick every brand we carry — independent makers and

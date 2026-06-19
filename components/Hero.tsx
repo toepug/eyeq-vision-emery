@@ -26,7 +26,7 @@ export default function Hero() {
           <p className="text-paper/85 text-lg md:text-xl leading-relaxed mb-10 max-w-xl">
             A bright, modern eyewear showroom and full-service optometry
             clinic — easy parking, walk-in friendly, and a frame collection
-            that punches well above a strip mall.
+            that punches well above expectations.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4">

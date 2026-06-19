@@ -33,7 +33,7 @@ export default function EyewearHighlights() {
             <h2 className="font-display font-extrabold text-ink text-4xl md:text-5xl">
               Designer Eyewear,
               <br />
-              Strip-Mall Easy.
+              Made Easy.
             </h2>
           </div>
           <Link
